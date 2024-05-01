@@ -1,0 +1,139 @@
+{
+  "customer": {
+    "id": "fdCustomerId",
+    "externalId": "123abc456def890ghi098jkl765mno",
+    "userName": "bjensen@example.com",
+    "name": {
+      "formatted": "Ms. Barbara J Jensen III",
+      "familyName": "Jensen",
+      "givenName": "Barbara",
+      "middleName": "Jane",
+      "honorificPrefix": "Ms.",
+      "honorificSuffix": "III"
+    },
+    "displayName": "Babs Jensen",
+    "nickName": "Babs",
+    "profileUrl": "https://login.example.com/bjensen",
+    "emails": [
+      {
+        "type": "work",
+        "value": "bjensen@example.com",
+        "primary": false
+      }
+    ],
+    "addresses": [
+      {
+        "type": "work",
+        "streetAddress": "100 Universal City Plaza",
+        "locality": "Hollywood",
+        "region": "CA",
+        "postalCode": 91608,
+        "country": "US",
+        "formatted": "100 Universal City Plaza\nHollywood, CA 91608 US",
+        "primary": false
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "value": "555-555-5555",
+        "type": "work",
+        "primary": false
+      }
+    ],
+    "ims": [
+      {
+        "value": "someaimhandle",
+        "type": "string",
+        "primary": true
+      }
+    ],
+    "photos": [
+      {
+        "value": "https://photos.example.com/profilephoto/72930000000Ccne/F",
+        "type": "thumbnail"
+      }
+    ],
+    "userType": "Employee",
+    "title": "Tour Guide",
+    "preferredLanguage": "en-US",
+    "locale": "en-US",
+    "timezone": "America/Los_Angeles",
+    "active": false,
+    "password": "some-hashed-value",
+    "groups": {
+      "value": "e9e30dba-f08f-4109-8486-d5c6a331660a",
+      "href": "https://example.com/v2/Groups/e9e30dba-f08f-4109-8486",
+      "display": "Tour Guides"
+    },
+    "dateCreated": "2016-04-16T16:06:05.000Z",
+    "dateModified": "2016-04-16T16:06:05.000Z",
+    "membership": {
+      "membershipType": "string",
+      "membershipId": "string",
+      "membershipProgramId": "string",
+      "membershipStatus": "string",
+      "membershipExpiryDate": {
+        "month": "09",
+        "year": "20",
+        "singleValue": "string"
+      },
+      "accountNumber": "string",
+      "securityCode": "string",
+      "merchantId": "M117008616001",
+      "altMerchantId": "string",
+      "verifyAccount": true,
+      "additionalInfo": [
+        {
+          "name": "string",
+          "value": "string",
+          "valueAsList": []
+        }
+      ]
+    },
+    "hostExtraInfo": [
+      {
+        "name": "string",
+        "value": "string",
+        "valueAsList": []
+      }
+    ]
+  },
+  "deviceInfo": {
+    "id": "537edec8-d33e-4ee8-93a7-b9f61876950c",
+    "kind": "mobile",
+    "details": [
+      {
+        "provider": "InAuth",
+        "dataCapture": {
+          "rawData": "aaaaaXREUVZGRlFY...aMV",
+          "dataEventId": "BB8E4E92...Fz1E063113",
+          "captureTime": "2016-04-16T16:06:05.000Z"
+        },
+        "dataStatic": {
+          "os": "Android 5.1.1 Lollipop",
+          "osVersion": "5.1.1 Lollipop",
+          "model": "XT1540",
+          "type": "Moto G"
+        },
+        "dataDynamic": {
+          "latitude": "13.0827 N",
+          "longitude": "80.2707 E",
+          "ipAddress": "172.27.37.221",
+          "captureTime": "2016-04-16T16:06:05.000Z"
+        },
+        "dataApplication": {
+          "version": "1.0.0",
+          "name": "application-name",
+          "country": "US"
+        }
+      }
+    ],
+    "additionalInfo": [
+      {
+        "name": "string",
+        "value": "string",
+        "valueAsList": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "provider-c",
+  "version": "1.0.5",
+  "description": "Api to interact",
+  "type": "commonjs",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.28",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoushif/bb-poc-lib-mono.git"
+  },
+  "files": [
+    "dist"
+  ]
+}
